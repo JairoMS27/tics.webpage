@@ -1,0 +1,115 @@
+#nombre-pagina {
+    font-family:'Poppins', sans-serif;;
+    font-style: italic;
+    text-align: center;
+    font-size:61px;
+}
+
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sources {
+    text-align:center;
+    font-style:italic;
+}
+
+#pr {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    color:lightgreen;
+    -webkit-text-stroke: 1px black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 20%;
+    height: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+font-family:'Baloo Bhaijaan 2', cursive;
+}
+
+.topnav a {
+float: left;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+margin-left: auto;
+margin-right: auto;
+}
+.topnav a:hover {
+background-color: rgb(206, 206, 206);
+color: black;
+}
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+#titulos {
+text-align:center;
+font-family: 'Bakbak One', cursive;
+font-style:normal;
+font-size:70px;
+}
+
+* {
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 400px;
+border-radius: 5px 5px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.content-table thead tr {
+background-color: #009879;
+color: #ffffff;
+text-align: left;
+font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+padding: 12px 15px;
+}
+
+.content-table tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+border-bottom: 2px solid #009879;
+}

@@ -1,0 +1,127 @@
+#nombre-pagina {
+    font-family:'Poppins', sans-serif;;
+    font-style: italic;
+    text-align: center;
+    font-size:61px;
+}
+
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sources {
+    text-align:center;
+    font-style:italic;
+}
+
+#pr {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    color:lightgreen;
+    -webkit-text-stroke: 1px black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 20%;
+    height: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+font-family:'Baloo Bhaijaan 2', cursive;
+}
+
+.topnav a {
+float: left;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+margin-left: auto;
+margin-right: auto;
+}
+.topnav a:hover {
+background-color: rgb(206, 206, 206);
+color: black;
+}
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+
+.column {
+float: left;
+width: 50%;
+margin-top: 6px;
+padding: 20px;
+}
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+}
+
+.fuente {
+font-family:'Baloo Bhaijaan 2', cursive;
+}
